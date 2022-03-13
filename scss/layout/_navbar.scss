@@ -1,0 +1,107 @@
+/*-------------------------*/
+/*Barra de Navegacion*/
+/*------------------------*/
+#menu-bot {
+    display: none;
+    
+}
+.nav-label {
+    display: none;
+    width: 45px;
+    height: 40px;
+    padding: 5px;
+    border-right: 1px solid $csecundario;
+}
+
+.nav-label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-navbs {
+    
+    background-color: $csecundario;
+}
+
+.barra-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: $csecundario;
+    text-align: center;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: $csecundario; 
+    text-align: center;
+}
+.menu {
+     ul {
+    margin: 0;
+    list-style: none;
+    padding: 1px;       
+        }
+}
+.navbar-nav {
+     ul {
+    margin: 0;
+    list-style: none;
+    padding: 1px;       
+        }
+}
+.menu {
+    li {
+    position: relative;
+    display: inline-block;
+        }
+}
+
+.navbar-nav { 
+    li {
+    position: relative;
+    display: inline-block;
+        }
+}
+.menu {
+    li {
+        a {
+            display: block;
+            padding: 5px 20px;
+            color: $cmorado; 
+            font-weight: bold;
+            text-decoration: none; 
+        }
+    }
+} 
+.navbar-nav {
+    li  {
+        a {
+            text-align: center;
+            font-size: 2rem;
+            display: block;
+            padding: 1px 20px;
+            color: $cmorado !important; 
+            font-weight: bold;
+            text-decoration: none; 
+        }
+    }
+} 
+
+.navbar-nav {
+     li {
+        a:hover {
+        color: $cprimario !important;
+        transition: all .3s;    
+                }
+        } 
+}
+.menu {
+    li {
+        a:hover {
+        color: $cprimario;
+        transition: all .3s;
+                }
+       }       
+}

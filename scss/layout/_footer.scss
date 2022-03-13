@@ -1,0 +1,55 @@
+/*-------------------------*/
+/* Footer */
+/*-------------------------*/
+
+footer {
+    width: 100%;
+    padding: 0 0;
+}
+.container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: auto;
+}
+.box_footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.logo_footer img {
+    width: 200px;
+    display: block;
+    margin: 10% 10%;
+}
+.box_footer h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.box_footer a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(107, 107, 107);
+}
+.box_footer a:hover {
+    opacity: 0.8;
+}
+.box_copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box_copyright p {
+    margin-top: 10px;
+    color: $cmorado !important;
+    padding: 10px 0;
+}
+.box_copyright hr{
+    border: none;
+    height: 1.5px;
+    background-color: $cmorado;
+}

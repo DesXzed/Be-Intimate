@@ -1,0 +1,21 @@
+
+/*STYLES*/
+@import "../scss/sass-utils/var";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+/*LAYOUT*/
+@import "../scss/layout/navbar";
+@import "../scss/layout/navbar";
+@import "../scss/layout/header";
+@import "../scss/layout/footer";
+
+
+
+/*PAGES*/
+@import "../scss/pages/nosotros";
+@import "../scss/pages/lenceria";
+@import "../scss/pages/index";
+@import "../scss/pages/guia";
+@import "../scss/pages/topsell";
+@import "../scss/pages/carrito";

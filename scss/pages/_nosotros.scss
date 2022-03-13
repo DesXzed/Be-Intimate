@@ -1,0 +1,88 @@
+/*-------------------------*/
+/*Contacto*/
+/*-------------------------*/
+.contact-box {
+    background-color: $colorbg;
+    padding: 50px 10px;
+}
+.contact-text {
+    font-size: 5.5rem;
+    text-align: center;
+    color: $crosa;
+    font-weight: bold;
+}
+.contact-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.aboutus-box {
+    margin: auto;
+    padding: 10px 10px;
+}
+.bold-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: $cmorado;
+
+}
+.aboutus {
+    font-size: 1.8rem;
+    color: $cgris;
+    font-weight: 400;
+}
+
+/*Nosotros*/
+.nosotros-box {
+    background-color: $cprimario;
+    padding: 5px 5px;
+}
+.nosotros-text {
+    font-size: 5.5rem;
+    text-align: center;
+    color: $cblanco;
+    font-weight: bold;
+}
+.nosotros-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.cat {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.form-md {
+    padding: 15px 10px;
+}
+.form-label-color {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $cmorado;
+}
+.btn-light,
+.btn-light:active,
+.btn-light:visited,
+.btn-light:focus {
+  background-color: $cmorado!important;
+}
+.btn-light:hover {
+    background-color: $crosabajo !important;
+    transition: all 1s ease;
+}
+.enviar-color {
+    color: $cblanco;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/*Google Maps*/
+.map-box {
+    background-color: $csecundario;
+    padding: $ancho*2 10px;
+}
+.map-cover {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

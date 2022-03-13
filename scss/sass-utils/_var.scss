@@ -1,0 +1,41 @@
+/*-------------------------*/
+/*General*/
+/*-------------------------*/
+    $colorbg: #F5F5F5; 
+    $crosa: #eda7f7;
+    $cblanco: #ffffff;
+    $cprimario: #f7a7f1;
+    $csecundario: #f4d8ed;
+    $cgris: #757575;
+    $cmorado: #c60094;
+    $cnegro: #212121;
+    $crosabajo: #dfa2f7;
+
+    $ancho: 5px; 
+
+* {
+    box-sizing: content-box;
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-size: 62.5%;
+    background: #F5F5F5;
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 0 0;
+    top: 0;
+    z-index: 1;
+}
+h2 {
+    font-size: 2.8rem;
+    color: $cmorado;
+    font-weight: bold;
+}

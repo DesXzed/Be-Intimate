@@ -1,0 +1,185 @@
+/*-------------------------*/
+/*Banner Principal*/
+/*-------------------------*/
+
+.hero-image {
+    margin: auto;
+    position: relative;
+    height: calc(70vh - 10px);
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;    
+    animation: hero-image 14s infinite linear;     
+    filter: grayscale(100%);
+}
+.hero-opacity:before {
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+    display: flex;    
+}
+
+.hero-text {
+    font-size: 19px;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+    top: 36%;
+    width: 100%;    
+}
+.font-si {
+    font-size: 40px;
+}
+
+.hero-text span {
+    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.45);
+    background-color: rgba(243, 127, 226, 0.342);
+    border-radius: 6px;
+    padding: 2px 4px 2px;
+}
+.hero-text h2 {
+    padding: 10px;
+    margin: auto;
+}
+.hero-text h2,
+.hero-text p{
+    color: $cblanco;
+}
+.button {
+   display: inline-block;
+   padding: 10px 20px;
+   margin: 20px;
+   text-align: center;
+   text-decoration: none;
+   color: $cmorado;
+   background-color: $csecundario;
+   border-radius: 6px;
+   outline: none;
+}
+.button:hover {
+    background-image: linear-gradient(to bottom, pink , rgba(128, 0, 128, 0.295));
+    
+}
+
+/*-------------------------*/
+/*Cambio de imagen banner*/
+/*-------------------------*/
+@keyframes hero-image {
+    0% {
+        background-image: url(../img/Banner_tops2.jpg);
+    }  
+   50% {
+       background-image: url(../img/Banner_tops2.jpg);
+   }
+   51% {
+    background-image: url(../img/Banner-Tops1.jpg);
+}
+    100% {
+        background-image:  url(../img/Banner-Tops1.jpg);
+    }
+}
+
+/*-------------------------*/
+/*Buscar categoria posicion*/
+/*-------------------------*/
+.columna-menu {
+    margin: auto;
+    max-width: 1184px;
+    padding-top: 32px;
+}
+.columna-menu__text {
+    font-size: 25px;
+    margin-bottom: 24px;
+    color: $cmorado;
+    text-align: center;
+}
+.columna-menu__text {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.columna-menu__marco {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.columna-menu__columnas {
+    column-count: 2;
+    column-gap: 24px;
+    width: 100%;   
+}
+/*-------------------------*/
+/*Imagenes & Marco*/
+/*-------------------------*/
+.label-image--large {
+    height: 520px;
+}
+.label-image {
+    margin-bottom: 24px;
+    max-width: 600px;    
+}
+.label-image {
+    display: flex;
+    position: relative;
+}
+.label-image__background {
+    border-radius: 0.375rem;
+    height: 100%;
+    width: 100%;   
+}
+.label-image__position {
+    border-radius: 6px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.label-image__text {
+    font-size: 28px;
+    font-weight: bold;
+    height: 100px;
+    letter-spacing: 4px;
+}
+.label-image__text--shadow {
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.45);
+    background-color: rgba(243, 127, 226, 0.418);    
+    color: $cnegro;
+}
+
+.label-image__text--shadow1 {
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.45);
+    background-color: rgba(243, 127, 226, 0.418);    
+    color: $cnegro;
+}
+
+
+.label-image__text--shadow:hover{
+    background-color: rgba(222, 100, 247, 0.438);
+}
+.label-image__text--shadow1:hover{
+    background-color: rgba(232, 145, 250, 0.438);
+}
+
+.label-image__text {
+    align-items: center;
+    border-radius: 0 0 6px 6px;
+    bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    padding: 0 1.5rem;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.label-image__text {
+    display: flex;
+    justify-content: center;   
+}
+.zoom:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.02);
+}
