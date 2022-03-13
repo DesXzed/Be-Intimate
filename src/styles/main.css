@@ -1,39 +1,5 @@
 @charset "UTF-8";
 /*STYLES*/
-/*-------------------------*/
-/*General*/
-/*-------------------------*/
-* {
-  box-sizing: content-box;
-  padding: 0px;
-  margin: 0px;
-}
-
-html {
-  font-size: 62.5%;
-  background: #F5F5F5;
-  height: 100%;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-}
-
-header {
-  position: -webkit-sticky;
-  position: sticky;
-  padding: 0 0;
-  top: 0;
-  z-index: 1;
-}
-
-h2, .h2 {
-  font-size: 2.8rem;
-  color: #c60094;
-  font-weight: bold;
-}
-
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11154,6 +11120,40 @@ textarea.form-control-lg {
   }
 }
 /*LAYOUT*/
+/*-------------------------*/
+/*General*/
+/*-------------------------*/
+* {
+  box-sizing: content-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  background: #F5F5F5;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 0 0;
+  top: 0;
+  z-index: 1;
+}
+
+h2, .h2 {
+  font-size: 2.8rem;
+  color: #c60094;
+  font-weight: bold;
+}
+
 /*-------------------------*/
 /*Barra de Navegacion*/
 /*------------------------*/

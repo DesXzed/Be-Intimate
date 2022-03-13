@@ -1,10 +1,11 @@
 
 /*STYLES*/
-@import "../scss/sass-utils/var";
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
 /*LAYOUT*/
+@import "../scss/sass-utils/var";
 @import "../scss/layout/navbar";
 @import "../scss/layout/navbar";
 @import "../scss/layout/header";
