@@ -11131,7 +11131,7 @@ textarea.form-control-lg {
 
 html {
   font-size: 62.5%;
-  background: #F5F5F5;
+  background: #f5f5f5;
   height: 100%;
 }
 
@@ -11414,7 +11414,7 @@ footer {
 /*Contacto*/
 /*-------------------------*/
 .contact-box {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 50px 10px;
 }
 
@@ -11899,6 +11899,96 @@ th {
 /*-------------------------*/
 .footer-carrito {
   padding: 50px 0;
+}
+
+.carrito-box {
+  padding: 50px 5px;
+}
+
+.shop-text {
+  font-size: 5.5rem;
+  text-align: center;
+  color: #eda7f7;
+  font-weight: bold;
+}
+
+.product {
+  width: 700px;
+  position: relative;
+  box-shadow: 0 2px 7px #e4e0e6;
+  margin: 20px auto;
+  background: #f4d8ed;
+}
+
+.pedido-txt {
+  color: #c60094;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.product-box {
+  position: relative;
+  background-color: #e0e0e0c0;
+  padding-bottom: 20px;
+}
+
+.product-img {
+  margin: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 100px;
+}
+
+.carrito-text {
+  position: absolute;
+  top: 50%;
+  left: 1000px;
+}
+
+.badge {
+  position: absolute;
+  left: 109px;
+  top: 90px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  background: red;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+.product-price {
+  top: 50%;
+  left: 400px;
+  font-size: 18px;
+  color: #c60094;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.product-price small, .product-price .small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
+  top: 50%;
+  left: 1000px;
+}
+
+.badge2 {
+  position: absolute;
+  left: 72px;
+  top: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  background: red;
+  color: #fff;
+  padding: 3px 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
